@@ -1,19 +1,5 @@
-#sidebar {
-    min-height: calc(100vh - 56px); /* Высота на весь экран минус высота навбара */
-}
-
 .carousel-item img {
     max-height: 80vh; /* Ограничиваем высоту, чтобы карусель не была слишком большой */
     object-fit: contain; /* Показывает все изображение, может оставлять поля */
     margin: 0 auto; /* Центрируем изображение в карусели */
-}
-
-/* Стили для кнопок-вкладок в сайдбаре */
-#v-pills-tab .nav-link {
-    color: #495057;
-}
-
-#v-pills-tab .nav-link.active {
-    background-color: #0d6efd;
-    color: white;
 }
