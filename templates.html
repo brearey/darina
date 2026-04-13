@@ -28,28 +28,28 @@
         }
         .template-body img.stub {
             position: absolute;
-            width: 140px;
-            height: 105px;
+            width: 130px;
+            height: 98px;
             object-fit: cover;
             border-radius: 6px;
             box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.25);
         }
 
-        /* ===== Деловой стиль — аккуратная сетка ===== */
-        .work-layout .stub:nth-child(1) { top: 20px;  left: 30px;  transform: rotate(-3deg); }
-        .work-layout .stub:nth-child(2) { top: 20px;  left: 195px; transform: rotate(2deg);  }
-        .work-layout .stub:nth-child(3) { top: 20px;  left: 360px; transform: rotate(-1deg); }
-        .work-layout .stub:nth-child(4) { top: 150px; left: 60px;  transform: rotate(2deg);  }
-        .work-layout .stub:nth-child(5) { top: 150px; left: 225px; transform: rotate(-2deg);}
-        .work-layout .stub:nth-child(6) { top: 280px; left: 140px; transform: rotate(1deg);  }
+        /* ===== Деловой стиль — ровная сетка ===== */
+        .work-layout .stub:nth-child(1) { top: 20px;  left: 45px;  transform: rotate(-2deg); }
+        .work-layout .stub:nth-child(2) { top: 20px;  left: 195px; transform: rotate(1deg);  }
+        .work-layout .stub:nth-child(3) { top: 20px;  left: 345px; transform: rotate(-1deg); }
+        .work-layout .stub:nth-child(4) { top: 140px; left: 45px;  transform: rotate(1deg);  }
+        .work-layout .stub:nth-child(5) { top: 140px; left: 195px; transform: rotate(-1deg);}
+        .work-layout .stub:nth-child(6) { top: 140px; left: 345px; transform: rotate(2deg);  }
 
         /* ===== Личное — свободная мозаика ===== */
-        .personal-layout .stub:nth-child(1) { top: 15px;  left: 20px;  transform: rotate(-6deg); width: 160px; height: 120px; }
-        .personal-layout .stub:nth-child(2) { top: 10px;  left: 200px; transform: rotate(4deg);  width: 130px; height: 98px;  }
-        .personal-layout .stub:nth-child(3) { top: 130px; left: 60px;  transform: rotate(3deg);  width: 130px; height: 98px;  }
-        .personal-layout .stub:nth-child(4) { top: 120px; left: 210px; transform: rotate(-5deg); width: 150px; height: 113px; }
-        .personal-layout .stub:nth-child(5) { top: 260px; left: 110px; transform: rotate(2deg);  width: 160px; height: 120px; }
-        .personal-layout .stub:nth-child(6) { top: 270px; left: 300px; transform: rotate(-3deg); width: 120px; height: 90px;  }
+        .personal-layout .stub:nth-child(1) { top: 20px;  left: 45px;  transform: rotate(-5deg); width: 145px; height: 109px; }
+        .personal-layout .stub:nth-child(2) { top: 20px;  left: 210px; transform: rotate(3deg);  width: 130px; height: 98px;  }
+        .personal-layout .stub:nth-child(3) { top: 20px;  left: 360px; transform: rotate(-2deg); width: 115px; height: 86px;  }
+        .personal-layout .stub:nth-child(4) { top: 150px; left: 45px;  transform: rotate(2deg);  width: 155px; height: 116px; }
+        .personal-layout .stub:nth-child(5) { top: 150px; left: 220px; transform: rotate(-4deg); width: 130px; height: 98px;  }
+        .personal-layout .stub:nth-child(6) { top: 150px; left: 370px; transform: rotate(1deg);  width: 120px; height: 90px;  }
     </style>
 </head>
 <body>
@@ -77,9 +77,10 @@
         <h1 class="h2 mb-4">Шаблоны оформления фотоальбома</h1>
 
         <div class="row g-4 justify-content-center">
-            <!-- Шаблон: Работа -->
+            <!-- Шаблон: Деловой стиль (кликабельный) -->
             <div class="col-lg-5 col-md-6">
-                <div class="template-card">
+                <a href="album-business.html" class="text-decoration-none text-reset">
+                <div class="template-card" style="cursor: pointer;">
                     <div class="template-header bg-dark text-white">
                         Деловой стиль
                     </div>
@@ -92,6 +93,7 @@
                         <img class="stub" src="img/placeholder.png" alt="">
                     </div>
                 </div>
+                </a>
             </div>
 
             <!-- Шаблон: Активный отдых (кликабельный) -->
